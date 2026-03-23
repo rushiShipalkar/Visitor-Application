@@ -1,0 +1,122 @@
+{
+  "visitors": [
+    {
+      "id": "1",
+      "name": "Priya Singh",
+      "email": "priya.singh@gmail.com",
+      "OfficeLocation": "pune",
+      "purpose": "interview",
+      "contact": "9123456780",
+      "date": "2026-02-11"
+    },
+    {
+      "id": "2",
+      "name": "Rushi Patil",
+      "email": "rushi.patil@gmail.com",
+      "OfficeLocation": "ahilyanagar",
+      "purpose": "meeting",
+      "contact": "9123456781",
+      "date": "2026-03-13"
+    },
+    {
+      "id": "3",
+      "name": "Anjali Deshmukh",
+      "email": "anjali.deshmukh@gmail.com",
+      "OfficeLocation": "pune",
+      "purpose": "company-visit",
+      "contact": "9123456782",
+      "date": "2026-03-14"
+    },
+    {
+      "id": "4",
+      "name": "Siddharth Kulkarni",
+      "email": "siddharth.kulkarni@gmail.com",
+      "OfficeLocation": "avhane-ahilyanagar",
+      "purpose": "interview",
+      "contact": "9123456783",
+      "date": "2026-03-12"
+    },
+    {
+      "id": "5",
+      "name": "Neha Jadhav",
+      "email": "neha.jadhav@gmail.com",
+      "OfficeLocation": "pune",
+      "purpose": "meeting",
+      "contact": "9123456784",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "7",
+      "name": "Maya Pawar",
+      "email": "maya.pawar@gmail.com",
+      "OfficeLocation": "avhane-ahilyanagar",
+      "purpose": "interview",
+      "contact": "9123456786",
+      "date": "2026-03-09"
+    },
+    {
+      "id": "8",
+      "name": "Saurabh More",
+      "email": "saurabh.more@gmail.com",
+      "OfficeLocation": "pune",
+      "purpose": "meeting",
+      "contact": "9123456787",
+      "date": "2026-03-11"
+    },
+    {
+      "id": "9",
+      "name": "Isha Kothari",
+      "email": "isha.kothari@gmail.com",
+      "OfficeLocation": "ahilyanagar",
+      "purpose": "company-visit",
+      "contact": "9123456788",
+      "date": "2026-03-08"
+    },
+    {
+      "id": "10",
+      "name": "Vikram Sathe",
+      "email": "vikram.sathe@gmail.com",
+      "OfficeLocation": "avhane-ahilyanagar",
+      "purpose": "interview",
+      "contact": "9123456789",
+      "date": "2026-03-07"
+    },
+    {
+      "name": "sonu shipalkar",
+      "email": "sonu@gamil.com",
+      "OfficeLocation": "ahilyanagar",
+      "purpose": "meeting",
+      "contact": "91320863",
+      "date": "2026-03-16",
+      "id": "eb48"
+    },
+    {
+      "id": "7a53",
+      "name": "sonu shiplakr",
+      "email": "sionu@gmai.com",
+      "OfficeLocation": "pune",
+      "purpose": "meeting",
+      "contact": "9021908808",
+      "date": "2026-03-16"
+    },
+    {
+      "id": "8501",
+      "name": "rushi shipalkar",
+      "email": "rushi@gmail.com",
+      "OfficeLocation": "pune",
+      "purpose": "interview",
+      "contact": "9021908808",
+      "date": "2026-03-17"
+    },
+    {
+      "id": "7510",
+      "name": "sakshi sapkal ",
+      "email": "sakshi@gmail.com",
+      "OfficeLocation": "pune",
+      "purpose": "interview",
+      "contact": "902102863",
+      "date": "2026-03-17"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

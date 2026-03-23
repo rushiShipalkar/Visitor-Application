@@ -1,0 +1,145 @@
+
+/* Page Title */ .container h2 { 
+  color: white;
+   text-align: center;
+    margin-bottom: 20px;
+     font-weight: 600; 
+    }
+
+/* Table container */
+.table-responsive-box {
+  background-color: white;
+  padding: 0;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  width: 95%;
+  margin: 0 auto;
+  height: 500px;
+  overflow: hidden;
+}
+
+/* Table */
+.visitors-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table header */
+.visitors-table thead {
+  background-color: #22262b;
+  color: #7193b4;
+}
+
+/* Header cells */
+.visitors-table th {
+  background-color: #22262b;
+  color: #7193b4;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+
+  position: sticky;
+  top: 0;
+  z-index: 5;           /* keeps header above rows */
+}
+
+/* Scrollable body */
+.visitors-table tbody {
+  display: block;
+  height: 420px;
+  overflow-y: auto;
+}
+
+/* Keep header width aligned */
+.visitors-table thead,
+.visitors-table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+/* Table rows */
+.visitors-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Table body cells */
+.visitors-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #ddd;
+  color: #22262b;
+}
+
+.visitors-table td:nth-child(2) {
+  max-width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Row hover effect */
+.visitors-table tbody tr:hover {
+  background-color: #f3f6f9;
+}
+
+/* Action buttons */
+.action-buttons {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+/* Edit Button */
+.visitors-table .btn-outline-secondary {
+  background-color: #b36b27;
+  border-color: #c8ad15;
+  color: white;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.visitors-table .btn-outline-secondary:hover {
+  background-color: #e66d00;
+  border-color: #e66d00;
+}
+
+/* Delete Button */
+.visitors-table .btn-outline-danger {
+  background-color: #b36b27;
+  border-color: #c8ad15;
+  color: white;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.visitors-table .btn-outline-danger:hover {
+  background-color: #ff0019;
+  border-color: #bb1b2b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .table-responsive-box {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .visitors-table th,
+  .visitors-table td {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+}
+.text-center{
+
+  color: white;
+}
